@@ -1,0 +1,58 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    .btn::after { 
+        left: -19px; 
+        border-top: 17px solid #C2D9FB;
+        border-left: 19px solid transparent;
+        border-bottom: 17px solid #C2D9FB;
+    }.btn {
+        height: 34px; 
+    }
+
+    .btn::before { 
+        right: -17px; 
+        border-top: 17px solid transparent;
+        border-bottom: 17px solid transparent;
+        border-left: 17px solid #C2D9FB;
+    }
+
+    .btn--green::after {
+        border-top: 17px solid #c3f7d1 !important;
+        border-bottom: 17px solid #c3f7d1 !important;
+    }
+
+
+    .btn--grey::after {
+        border-top: 16px solid #F4F4F4 !important; 
+    }
+
+
+
+}
+@media (min-width: 320px) and (max-width: 575px) {
+    .btn::after { 
+        left: -19px; 
+        border-top: 17px solid #C2D9FB;
+        border-left: 19px solid transparent;
+        border-bottom: 17px solid #C2D9FB;
+    }.btn {
+        height: 34px; 
+    }
+
+    .btn::before { 
+        right: -17px; 
+        border-top: 17px solid transparent;
+        border-bottom: 17px solid transparent;
+        border-left: 17px solid #C2D9FB;
+    }
+
+    .btn--green::after {
+        border-top: 17px solid #c3f7d1 !important;
+        border-bottom: 17px solid #c3f7d1 !important;
+    }
+    .buttons__area {
+        padding: 15px; 
+    }
+
+
+
+}
